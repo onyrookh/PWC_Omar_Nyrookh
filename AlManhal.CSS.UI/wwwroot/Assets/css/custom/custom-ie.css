@@ -1,0 +1,94 @@
+﻿#custom-search-input .twitter-typeahead .tt-hint{
+    border-radius:0;
+    line-height:0;
+}
+
+.custom-search-select{
+    height:44.3px !important;
+    width:25% !important;
+}
+
+#custom-search-input input[type='submit']{
+    height:44.3px !important;
+}
+
+#mainAdvanceSearchLinkContainer{
+    margin-top:2px !important;
+}
+
+#page{
+    padding-bottom:0;
+}
+
+#list_sidebar .box_list{
+    min-height:0;
+}
+
+.item-box{
+    margin-bottom:0px !important
+}
+
+#list_sidebar .box_list.journals figure{
+    border:0;
+    border-left:1px solid gainsboro;
+    border-right:1px solid gainsboro;
+}
+
+#publishers-container td{
+    max-width:200px;
+}
+
+#page #main{
+    padding-top:0 !important;
+    margin-top:0 !important;
+}
+
+#header-search .twitter-typeahead{
+    margin-top:0px !important;
+}
+
+.search-box-addon{
+    width:50% !important;
+}
+
+.action-on-header-search-container{
+    bottom:-5px !important;
+}
+
+.scroll-auto{
+    overflow-y:scroll !important;
+}
+
+/*For Reader search line height*/
+div.horizontal-toolbar div.search-control input[type=text], div.horizontal-toolbar div.search-control input[type=text]:focus{
+    line-height:0 !important;
+}
+
+#cookie-bar .cb-enable{
+    background:none !important;
+}
+
+.language-label>span{
+    font-size: 15px !important;
+    line-height: 0.9 !important;
+}
+
+#mlkeyboard .close {
+    padding: 14px;
+}
+
+#logout-main .main-container{
+    display:flex !important;
+    margin-top:33vh !important;
+}
+
+#custom-search-input .search-query{
+    height:42px !important;
+    padding-bottom:3px !important;
+}
+
+.custom-search-select::-ms-expand {
+    background-color:transparent;
+    border:0;
+    margin-top:3px;
+}

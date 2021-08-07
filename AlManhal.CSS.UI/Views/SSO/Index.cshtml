@@ -1,0 +1,131 @@
+﻿@model PWC.Infrastructure.Error
+
+@{
+    Layout = null;
+}
+
+
+<html lang="en">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+
+<head>
+    <link rel="shortcut icon" href="@(ViewBag.StaticResources)/images/Favicon/favicon_@(ViewBag.RenderingMode).ico@(ViewBag.BundleVersion)" />
+</head>
+<!-- END HEAD -->
+
+<body class="page-sso">
+    <div class="page-inner">
+        <img src="@(ViewBag.StaticResources)/images/earth.jpg@(ViewBag.BundleVersion)" class="img-responsive" alt="" />
+    </div>
+    <div class="container error-sso">
+
+        @if (Model.IsSuccess)
+        {
+            <h2> The user is now authenticated</h2>
+            <p>  @Model.ErrorMessage</p>
+        }
+        else
+        { <h1>@Model.ID</h1>
+        <p>  @Model.ErrorMessage</p>
+        <p>
+            @Html.ActionLink("Return home",
+            "Index",
+            "Home",
+           null, new { @class = "btn red btn-outline" })
+
+            <br>
+        </p>
+    }
+
+
+
+    </div>
+
+</body>
+
+</html>
+
+<style>
+    .container {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .page-sso {
+        font-family: "Open Sans",sans-serif;
+        background: #000 !important;
+    }
+
+        .page-sso .page-inner img {
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+            position: absolute;
+        }
+
+    .img-responsive {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .page-sso .error-sso {
+        color: #fff;
+        text-align: left;
+        padding: 70px 20px 0;
+    }
+
+    .page-sso h1 {
+        font-weight: 300;
+        color: #fff;
+        font-size: 130px;
+        line-height: 160px;
+    }
+
+    .page-sso h2 {
+        color: #fff;
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .page-sso p {
+        color: #fff;
+        font-size: 16px;
+    }
+
+    .btn.btn-outline.red {
+        border-color: #e7505a;
+        color: #e7505a;
+        background: 0 0;
+    }
+
+    btn:not(.btn-sm):not(.btn-lg) {
+        line-height: 1.44;
+    }
+
+    .btn {
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: 400;
+        text-align: center;
+        touch-action: manipulation;
+        cursor: pointer;
+        border: 1px solid transparent;
+        white-space: nowrap;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.42857;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        text-decoration: none;
+    }
+
+        .btn.btn-outline.red:hover {
+            background-color: #e46a6a;
+            color: white;
+        }
+</style>

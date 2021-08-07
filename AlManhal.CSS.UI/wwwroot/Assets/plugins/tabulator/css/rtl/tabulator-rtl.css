@@ -1,0 +1,20 @@
+﻿.tabulator .tabulator-header .tabulator-col .tabulator-col-content .tabulator-arrow {
+    left: 8px;
+    right: auto;
+}
+.tabulator .tabulator-header .tabulator-col .tabulator-col-content .tabulator-col-title{
+    text-align:right;
+}
+
+.tabulator-row .tabulator-cell {
+    text-align: right;
+}
+
+.tabulator .tabulator-header .tabulator-col.tabulator-sortable .tabulator-col-title {
+    padding-right: 0;
+    padding-left: 25px;
+}
+
+.tabulator .tabulator-header .tabulator-col.text-center .tabulator-col-content .tabulator-col-title{
+    text-align:center !important;
+}

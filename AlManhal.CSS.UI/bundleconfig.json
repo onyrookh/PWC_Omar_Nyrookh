@@ -1,0 +1,78 @@
+﻿// Configure bundling and minification for the project.
+// More info at https://go.microsoft.com/fwlink/?LinkId=808241
+[
+  {
+    "outputFileName": "wwwroot/Assets/bundles/js/SharedPlugins.js",
+    "inputFiles": [
+      "wwwroot/Assets/js/jquery-2.2.4.min.js",
+      "wwwroot/Assets/plugins/jquery-ui/jquery-ui-1.8.22.min.js",
+      "wwwroot/Assets/plugins/tooltipster/js/tooltipster.bundle.min.js",
+      "wwwroot/Assets/js/global/global-vars.js",
+      "wwwroot/Assets/js/global/global-utils.js",
+      "wwwroot/Assets/js/global/global-enums.js",
+      "wwwroot/Assets/js/common_scripts.js",
+      "wwwroot/Assets/js/main.js",
+      "wwwroot/Assets/js/jquery.cookiebar.js",
+      "wwwroot/Assets/plugins/bootbox/bootbox.min.js",
+      "wwwroot/Assets/plugins/blockUI/jquery.blockUI.min.js",
+      "wwwroot/Assets/js/modernizr.js"
+    ],
+    "minify": { "enabled": true }
+  },
+  {
+    "outputFileName": "wwwroot/Assets/bundles/css/SharedPlugins.css",
+    "inputFiles": [
+      "wwwroot/Assets/css/all_icons.css",
+      "wwwroot/Assets/css/custom-animatetion.css",
+      "wwwroot/Assets/plugins/tooltipster/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-borderless.min.css",
+      "wwwroot/Assets/plugins/tooltipster/css/tooltipster.bundle.min.css"
+    ],
+    "minify": { "enabled": true }
+  },
+  {
+    "outputFileName": "wwwroot/Assets/bundles/css/ThesisSubmitCSS.css",
+    "inputFiles": [
+      "wwwroot/Assets/css/skins/square/grey.css",
+      "wwwroot/Assets/css/all_icons.css",
+      "wwwroot/Assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.min.css"
+    ],
+    "minify": { "enabled": true }
+  },
+  {
+    "outputFileName": "wwwroot/Assets/bundles/js/ThesisSubmitJS.js",
+    "inputFiles": [
+      "wwwroot/Assets/js/jquery-2.2.4.min.js",
+      "wwwroot/Assets/plugins/jquery-ui/jquery-ui-1.8.22.min.js",
+      "wwwroot/Assets/plugins/jquery.wizard/jquery.wizard.js",
+      "wwwroot/Assets/plugins/jquery.validate/jquery.validate.js",
+      "wwwroot/Assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js",
+      "wwwroot/Assets/plugins/bootbox/bootbox.min.js",
+      "wwwroot/Assets/plugins/blockUI/jquery.blockUI.min.js",
+      "wwwroot/Assets/js/common_scripts.js",
+      "wwwroot/Assets/js/validate.js",
+      "wwwroot/Assets/js/main_thesis.js",
+      "wwwroot/Assets/js/global/global-enums.js",
+      "wwwroot/Assets/js/global/global-utils.js",
+      "wwwroot/Assets/js/pages/submit-thesis.js"
+    ],
+    "minify": { "enabled": true }
+  },
+  {
+    "outputFileName": "wwwroot/Assets/bundles/css/EditAccountThesisCSS.css",
+    "inputFiles": [
+      "wwwroot/Assets/css/skins/square/grey.css",
+      "wwwroot/Assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.min.css"
+    ],
+    "minify": { "enabled": true }
+  },
+  {
+    "outputFileName": "wwwroot/Assets/bundles/js/EditAccountThesisJS.js",
+    "inputFiles": [      
+      "wwwroot/Assets/plugins/jquery.validate/jquery.validate.js",
+      "wwwroot/Assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js",
+      "wwwroot/Assets/js/validate.js",
+      "wwwroot/Assets/js/pages/edit-account-thesis.js"
+    ],
+    "minify": { "enabled": true }
+  }
+]

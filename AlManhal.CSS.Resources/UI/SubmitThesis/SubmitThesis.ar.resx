@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ArabicAbstract" xml:space="preserve">
+    <value>الملخص العربي</value>
+  </data>
+  <data name="AuthorAddress" xml:space="preserve">
+    <value>عنوان المؤلف</value>
+  </data>
+  <data name="AuthorCountry" xml:space="preserve">
+    <value>بلد المؤلف</value>
+  </data>
+  <data name="AuthorInfoStepTitle" xml:space="preserve">
+    <value>يرجى تعبئة تفاصيل المؤلف</value>
+  </data>
+  <data name="AuthorNameAR" xml:space="preserve">
+    <value>اسم المؤلف بالعربية</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>السابق</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>اغلاق</value>
+  </data>
+  <data name="DelegationOfScientificPapers" xml:space="preserve">
+    <value>تفويض الرسائل العلمية</value>
+  </data>
+  <data name="DepartmentName" xml:space="preserve">
+    <value>القسم العلمي</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>البريد الالكتروني</value>
+  </data>
+  <data name="EnglishAbstract" xml:space="preserve">
+    <value>الملخص الانجليزي</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>خطأ</value>
+  </data>
+  <data name="Faculty" xml:space="preserve">
+    <value>اسم الكلية</value>
+  </data>
+  <data name="FacultyInfoStepTitle" xml:space="preserve">
+    <value>يرجى تعبئة معلومات الكلية الخاصة بك</value>
+  </data>
+  <data name="FifthStepTitleNo" xml:space="preserve">
+    <value>خطوة 5 من 5</value>
+  </data>
+  <data name="FileSizeNote" xml:space="preserve">
+    <value>ملاحظة: يجب أن يكون حجم الملف أقل من أو يساوي 100 ميغابايت</value>
+  </data>
+  <data name="FilesStepTitle" xml:space="preserve">
+    <value>يرجى تحميل الملفات</value>
+  </data>
+  <data name="FileTypeNote" xml:space="preserve">
+    <value>ملاحظة: يجب أن تكون صيغة الملف (docx, pdf)</value>
+  </data>
+  <data name="FirstDescription" xml:space="preserve">
+    <value>مرحبا بك في منصة جامعة الملك عبد العزيز لنشر الأطروحات.
+ستقوم من خلال الخطوات التالية بتعبئة نموذج المعلومات والوثائق المطلوبة لنشر الأطروحة على المنصة.</value>
+  </data>
+  <data name="FirstStepTitleNo" xml:space="preserve">
+    <value>خطوة 1 من 5</value>
+  </data>
+  <data name="FourthStepTitleNo" xml:space="preserve">
+    <value>خطوة 4 من 5</value>
+  </data>
+  <data name="GraduationDate" xml:space="preserve">
+    <value>تاريخ التخرج</value>
+  </data>
+  <data name="GraduationType" xml:space="preserve">
+    <value>نوع الرساله</value>
+  </data>
+  <data name="KAUHeaderSubTitle" xml:space="preserve">
+    <value>تقديم أطروحة</value>
+  </data>
+  <data name="KAUHeaderTitle" xml:space="preserve">
+    <value>منصة جامعة الملك عبد العزيز العلمية</value>
+  </data>
+  <data name="Keywords" xml:space="preserve">
+    <value>كلمات دلالية</value>
+  </data>
+  <data name="LetterOfApprovalOfTheCommittee" xml:space="preserve">
+    <value>خطاب موافقة اللجنة</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>التالي</value>
+  </data>
+  <data name="NumberOfPages" xml:space="preserve">
+    <value>عدد الصفحات</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>موافق</value>
+  </data>
+  <data name="RequestSuccessfullySent" xml:space="preserve">
+    <value>تم ارسال الطلب بنجاح!</value>
+  </data>
+  <data name="SecondDescription" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore .</value>
+  </data>
+  <data name="SecondStepTitleNo" xml:space="preserve">
+    <value>خطوة 2 من 5</value>
+  </data>
+  <data name="SecondSupervisorName" xml:space="preserve">
+    <value>اسم المشرف الثاني</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>الموضوع</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>تقديم</value>
+  </data>
+  <data name="SubmitThesisTitle" xml:space="preserve">
+    <value>نموذج تسليم رسالة علمية</value>
+  </data>
+  <data name="SupervisorName" xml:space="preserve">
+    <value>اسم المشرف</value>
+  </data>
+  <data name="Telephone" xml:space="preserve">
+    <value>رقم الهاتف</value>
+  </data>
+  <data name="ThankYouForYourTime" xml:space="preserve">
+    <value>شكرا لتقديم رسالتك في المنصة</value>
+  </data>
+  <data name="ThesisAbstractsStepTitle" xml:space="preserve">
+    <value>يرجى تعبئة ملخصات الأطروحة</value>
+  </data>
+  <data name="ThesisInfoStepTitle" xml:space="preserve">
+    <value>يرجى تعبئة معلومات الأطروحة</value>
+  </data>
+  <data name="ThesisLanguage" xml:space="preserve">
+    <value>لغة الرسالة</value>
+  </data>
+  <data name="ThesisTitleEN" xml:space="preserve">
+    <value>عنوان الرسالة بالإنجليزية</value>
+  </data>
+  <data name="ThirdStepTitleNo" xml:space="preserve">
+    <value>خطوة 3 من 5</value>
+  </data>
+  <data name="TokenTimeOutMessage" xml:space="preserve">
+    <value>نأسف، لقد انتهت صلاحية الصفحة. يرجى إعادة تقديم الأطروحة مرة أخرى.</value>
+  </data>
+  <data name="UploadThesisFilePDF" xml:space="preserve">
+    <value>تحميل ملف الأطروحة بصيغة PDF</value>
+  </data>
+  <data name="ThesisFile" xml:space="preserve">
+    <value>ملف الأطروحة</value>
+  </data>
+  <data name="AuthorNameEN" xml:space="preserve">
+    <value>اسم المؤلف بالإنجليزية</value>
+  </data>
+  <data name="StudentID" xml:space="preserve">
+    <value>الرقم الجامعي</value>
+  </data>
+  <data name="ThesisTitleAR" xml:space="preserve">
+    <value>عنوان الرسالة بالعربية</value>
+  </data>
+  <data name="AuthorName" xml:space="preserve">
+    <value>اسم المؤلف</value>
+  </data>
+  <data name="ThesisTitle" xml:space="preserve">
+    <value>عنوان الرسالة</value>
+  </data>
+  <data name="ThesisFileDoc" xml:space="preserve">
+    <value>ملف الأطروحة word (docx)</value>
+  </data>
+  <data name="ThesisFilePDF" xml:space="preserve">
+    <value>ملف الأطروحة PDF</value>
+  </data>
+  <data name="UploadThesisFileDoc" xml:space="preserve">
+    <value>تحميل ملف الأطروحة بصيغة word (docx)</value>
+  </data>
+  <data name="MyTheses" xml:space="preserve">
+    <value>أطروحاتي</value>
+  </data>
+  <data name="SubmitNewThesis" xml:space="preserve">
+    <value>تقديم أطروحة جديدة</value>
+  </data>
+</root>

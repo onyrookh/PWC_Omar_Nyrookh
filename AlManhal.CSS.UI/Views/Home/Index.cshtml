@@ -1,0 +1,41 @@
+﻿@using PWC.Entities.DTOs;
+@using PWC.UI.Helpers;
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.ShowFullFooter = false;
+    AccountSessionInfoDto oAccountSessionInfoDto = AuthenticationHelper.GetAuthenticatedAccount();
+
+}
+
+@section PageCSS
+{
+    <style>
+        #page {
+            padding-bottom: unset !important;
+        }
+    </style>
+}
+
+<main>
+    <section class="hero_single version_2">
+
+        <div class="wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="font-fm-lato">PWC Complaint Web Site</h3>
+                        @if (oAccountSessionInfoDto ==null)
+                        {
+                            <p class="font-fm-lato">Login using your account to see your complaints</p>
+                        }
+                        else
+                        {
+                    <p class="font-fm-lato">Please feel free to write a complaint letter</p>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<!-- /main -->

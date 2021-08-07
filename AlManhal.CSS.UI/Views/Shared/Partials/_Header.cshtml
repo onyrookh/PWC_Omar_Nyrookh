@@ -1,0 +1,104 @@
+﻿@using PWC.Entities.DTOs;
+@using PWC.UI.Helpers;
+@{
+    string LanguageName = PWC.Resources.UI.Global.Variables.LanguageName;
+    bool IsArabic = int.Parse(PWC.Resources.UI.Global.Variables.LanguageID) == (int)PWC.Entities.Enums.AppLanguages.Arabic;
+    int IsStickyHeader = ViewBag.IsStickyHeader != null ? ViewBag.IsStickyHeader : 0;
+    AccountSessionInfoDto oAccountSessionInfoDto = AuthenticationHelper.GetAuthenticatedAccount();
+
+}
+
+<header class="header menu_2 sticky">
+    <div id="preloader"><div data-loader="circle-side"></div></div><!-- /Preload -->
+    <div id="logo">
+        <a href="/">
+            <img class="img-header" style="width: 46px;margin: 0px 60%;" src="https://www.pwc.com/etc.clientlibs/pwc/clientlibs/rebrand-clientlibs/components-colors/resources/images/slim-header-v2/PwC-logo.svg" data-retina="true" alt="">
+        </a>
+    </div>
+    
+    <!-- /top_menu -->
+    <a href="#menu" class="btn_mobile">
+        <div class="hamburger hamburger--spin" id="hamburger">
+            <div class="hamburger-box">
+                <div class="hamburger-inner"></div>
+            </div>
+        </div>
+    </a>
+
+    <nav id="menu" class="main-menu">
+        <ul>
+
+            <li>
+                <span>
+                    <a href="/">
+                        @PWC.Resources.UI.Global.Text.Home
+                    </a>
+                </span>
+            </li>
+
+            @if (oAccountSessionInfoDto !=null && oAccountSessionInfoDto.UserTypeID != null)
+            {
+                if (oAccountSessionInfoDto.UserTypeID == (int)PWC.Entities.Enums.UserType.Admin)
+                {
+                    <li>
+                        <span>
+                            <a href="/complaint">
+                                All Complaints
+                            </a>
+                        </span>
+                    </li>
+                }
+                else if (oAccountSessionInfoDto.UserTypeID == (int)PWC.Entities.Enums.UserType.Customer)
+                {
+                    <li>
+                        <span>
+                            <a href="/complaint/">
+                                My Complaints
+                            </a>
+                        </span>
+                    </li>
+                }
+            }
+
+            <li class="menu-mobile-hidden">
+                |
+            </li>
+
+
+            @if (oAccountSessionInfoDto == null || oAccountSessionInfoDto.AccountID == null)
+            {
+                <li><span><a id="loginHeader" href="/Account/Login">Sign In</a></span></li>
+                <li class="menu-mobile-hidden">
+                    |
+                </li>
+
+                <li><span><a id="loginHeader" href="/Account/Signup">Sign Up</a></span></li>
+
+            }
+            else
+            {
+                <li>
+                    <span>
+                        <a href="#">
+                            <span class="menu-mobile-hidden"><i style="font-size:22px" class="fa fa-user-circle"></i></span>
+                            <span class="menu-big-screen-hidden">@oAccountSessionInfoDto.Username</span>
+                        </a>
+                    </span>
+
+                    <ul>
+                        <li>
+                            <a href="/Account/SignOut">
+                                <span>@PWC.Resources.UI.Global.Text.SignOut</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            }
+
+
+        </ul>
+    </nav>
+
+</header>
+<!-- /header -->
+<input type="hidden" id="IsStickyHeader" value="@IsStickyHeader" />

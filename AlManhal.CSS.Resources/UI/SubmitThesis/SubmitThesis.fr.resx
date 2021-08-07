@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ArabicAbstract" xml:space="preserve">
+    <value>Résumé arabe</value>
+  </data>
+  <data name="AuthorAddress" xml:space="preserve">
+    <value>Adresse de l'auteur</value>
+  </data>
+  <data name="AuthorCountry" xml:space="preserve">
+    <value>Pays de l'auteur</value>
+  </data>
+  <data name="AuthorInfoStepTitle" xml:space="preserve">
+    <value>Please fill with author details</value>
+  </data>
+  <data name="AuthorNameEN" xml:space="preserve">
+    <value>Nom de l'auteur anglais</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Retour</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="DelegationOfScientificPapers" xml:space="preserve">
+    <value>Délégation de documents scientifiques</value>
+  </data>
+  <data name="DepartmentName" xml:space="preserve">
+    <value>Nom du département</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="EnglishAbstract" xml:space="preserve">
+    <value>Résumé en anglais</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Erreur</value>
+  </data>
+  <data name="Faculty" xml:space="preserve">
+    <value>Nom de la faculté</value>
+  </data>
+  <data name="FacultyInfoStepTitle" xml:space="preserve">
+    <value>S'il vous plaît remplir vos informations de la faculté</value>
+  </data>
+  <data name="FifthStepTitleNo" xml:space="preserve">
+    <value>5 sur 5</value>
+  </data>
+  <data name="FileSizeNote" xml:space="preserve">
+    <value>Note: La taille du fichier doit être inférieure ou égale à 100 Mo</value>
+  </data>
+  <data name="FilesStepTitle" xml:space="preserve">
+    <value>S'il vous plaît télécharger les fichiers</value>
+  </data>
+  <data name="FileTypeNote" xml:space="preserve">
+    <value>Note: Le format de fichier acceptable (docx, pdf)</value>
+  </data>
+  <data name="FirstDescription" xml:space="preserve">
+    <value>Bienvenue sur la plate-forme de publication de l'Université King Abdul Aziz!
+L’assistant suivant vous guidera à travers les étapes nécessaires à la soumission de votre thèse sur notre plateforme.</value>
+  </data>
+  <data name="FirstStepTitleNo" xml:space="preserve">
+    <value>1 sur 5</value>
+  </data>
+  <data name="FourthStepTitleNo" xml:space="preserve">
+    <value>4 sur 5</value>
+  </data>
+  <data name="GraduationDate" xml:space="preserve">
+    <value>Date d'obtention du diplôme</value>
+  </data>
+  <data name="GraduationType" xml:space="preserve">
+    <value>Type de graduation</value>
+  </data>
+  <data name="KAUHeaderSubTitle" xml:space="preserve">
+    <value>Soumission de thèse</value>
+  </data>
+  <data name="KAUHeaderTitle" xml:space="preserve">
+    <value>Plateforme scientifique King Abdulaziz</value>
+  </data>
+  <data name="Keywords" xml:space="preserve">
+    <value>Mots clés</value>
+  </data>
+  <data name="LetterOfApprovalOfTheCommittee" xml:space="preserve">
+    <value>Lettre d'approbation du comité</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Vers l'avant</value>
+  </data>
+  <data name="NumberOfPages" xml:space="preserve">
+    <value>Nombre de pages</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>D'accord</value>
+  </data>
+  <data name="RequestSuccessfullySent" xml:space="preserve">
+    <value>Demande envoyée avec succès!</value>
+  </data>
+  <data name="SecondDescription" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore .</value>
+  </data>
+  <data name="SecondStepTitleNo" xml:space="preserve">
+    <value>2 sur 5</value>
+  </data>
+  <data name="SecondSupervisorName" xml:space="preserve">
+    <value>Nom du deuxième superviseur</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Assujettir</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Soumettre</value>
+  </data>
+  <data name="SubmitThesisTitle" xml:space="preserve">
+    <value>Mémoire et soumission de thèse</value>
+  </data>
+  <data name="SupervisorName" xml:space="preserve">
+    <value>Nom du superviseur</value>
+  </data>
+  <data name="Telephone" xml:space="preserve">
+    <value>Téléphone</value>
+  </data>
+  <data name="ThankYouForYourTime" xml:space="preserve">
+    <value>Merci d'avoir soumis votre thèse à notre plateforme</value>
+  </data>
+  <data name="ThesisAbstractsStepTitle" xml:space="preserve">
+    <value>Veuillez remplir avec les résumés de thèse</value>
+  </data>
+  <data name="ThesisInfoStepTitle" xml:space="preserve">
+    <value>Veuillez remplir avec les informations de thèse</value>
+  </data>
+  <data name="ThesisLanguage" xml:space="preserve">
+    <value>Langue de la thèse</value>
+  </data>
+  <data name="ThesisTitleEN" xml:space="preserve">
+    <value>Titre de la thèse en anglais</value>
+  </data>
+  <data name="ThirdStepTitleNo" xml:space="preserve">
+    <value>3 sur 5</value>
+  </data>
+  <data name="TokenTimeOutMessage" xml:space="preserve">
+    <value>Votre session est terminée, veuillez soumettre à nouveau votre formulaire de thèse.</value>
+  </data>
+  <data name="ThesisFile" xml:space="preserve">
+    <value>fichier de thèse</value>
+  </data>
+  <data name="AuthorNameAR" xml:space="preserve">
+    <value>Nom de l'auteur arabe</value>
+  </data>
+  <data name="StudentID" xml:space="preserve">
+    <value>Carte d'étudiant</value>
+  </data>
+  <data name="ThesisTitleAR" xml:space="preserve">
+    <value>Titre de la thèse arabe</value>
+  </data>
+  <data name="AuthorName" xml:space="preserve">
+    <value>Nom de l'auteur</value>
+  </data>
+  <data name="ThesisTitle" xml:space="preserve">
+    <value>Titre de thèse</value>
+  </data>
+  <data name="ThesisFileDoc" xml:space="preserve">
+    <value>fichier de thèse word (docx)</value>
+  </data>
+  <data name="ThesisFilePDF" xml:space="preserve">
+    <value>fichier de thèse PDF</value>
+  </data>
+  <data name="UploadThesisFileDoc" xml:space="preserve">
+    <value>Télécharger la thèse au format Word (docx)</value>
+  </data>
+  <data name="UploadThesisFilePDF" xml:space="preserve">
+    <value>Télécharger la thèse au format PDF</value>
+  </data>
+  <data name="MyTheses" xml:space="preserve">
+    <value>Mes thèses</value>
+  </data>
+  <data name="SubmitNewThesis" xml:space="preserve">
+    <value>soumettre une nouvelle thèse</value>
+  </data>
+</root>

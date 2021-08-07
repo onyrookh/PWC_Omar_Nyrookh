@@ -1,0 +1,58 @@
+﻿@using PWC.Entities;
+@using PWC.UI.Helpers;
+@{
+    bool IsCustomer = (int)Enums.UserType.Customer == AuthenticationHelper.GetAuthenticatedAccount().UserTypeID;
+    ViewBag.IsStickyHeader = 1;
+    bool IsArabic = PWC.Resources.UI.Global.Variables.LanguageID == ((int)PWC.Entities.Enums.AppLanguages.Arabic).ToString();
+}
+
+@section PluginsCSS{
+    <link href="@(ViewBag.StaticResources)/plugins/tabulator/css/semantic-ui/tabulator_semantic-ui.min.css@(ViewBag.BundleVersion)" rel="stylesheet" />
+    @if (IsArabic)
+    {
+        <link href="@(ViewBag.StaticResources)/plugins/tabulator/css/rtl/tabulator-rtl.css@(ViewBag.BundleVersion)" rel="stylesheet" />
+    }
+}
+
+@section PageCSS{
+    <style>
+        main {
+            margin-top: 100px;
+        }
+
+        .filters-title {
+            display: block;
+            color: #333;
+            position: relative;
+            font-size: 16px;
+            font-size: 1rem;
+            font-weight: 600;
+            padding: 5px 0;
+        }
+    </style>
+}
+
+<main id="main_container">
+    <div class="pr-5 pl-5">
+        @if (IsCustomer)
+        {
+            <div class="row" style="direction:rtl;">
+                <a href="/Complaint/AddEdit/0" class="btn-success btn">Add Complaint</a>
+            </div>
+        }
+
+        <div class="row">
+            <div class="col-lg-12" id="list_sidebar">
+                <div id="tabulator-thesis-list"></div>
+            </div>
+            <!-- /col -->
+        </div>
+
+
+    </div>
+</main>
+
+@section PluginsJS{
+    <script src="@(ViewBag.StaticResources)/plugins/tabulator/js/tabulator.js@(ViewBag.BundleVersion)"></script>
+    <script src="@(ViewBag.StaticResources)/js/pages/review-thesis-list.js@(ViewBag.BundleVersion)"></script>
+}

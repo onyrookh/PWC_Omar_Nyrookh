@@ -1,0 +1,65 @@
+﻿@using PWC.Entities;
+@using PWC.UI.Helpers;
+@{
+    ViewBag.IsStickyHeader = 1;
+
+    bool IsCustomer = (int)Enums.UserType.Customer == AuthenticationHelper.GetAuthenticatedAccount().UserTypeID;
+    int Pending = (int)Enums.ComplaintStatus.Pending;
+    int Resolved = (int)Enums.ComplaintStatus.Resolved;
+    int Dismissed = (int)Enums.ComplaintStatus.Dismissed;
+}
+
+@section PluginsCSS{
+    <link href="@(ViewBag.StaticResources)/css/skins/square/grey.css@(ViewBag.BundleVersion)" rel="stylesheet" />
+}
+
+@section PageCSS{
+    <link href="@(ViewBag.StaticResources)/css/pages/login.css@(ViewBag.BundleVersion)" rel="stylesheet" />
+}
+
+<main>
+    <div class="login" id="create_complaint">
+        <div class="content">
+            <div class="login-form">
+                <h3 class="text-header pb-3">@((IsCustomer && ViewBag.ComplaintID == 0) ?"Write a": "Update") Complaint</h3>
+                <div id="ErrorDivLoginIn" class="mt-2">
+                    @if (ViewData.ModelState.Any(x => x.Value.Errors.Any()))
+                    {
+                        <div class="alert fade in">
+                            @Html.ValidationSummary()
+                        </div>
+                    }
+                </div>
+
+                <div class="form-group">
+                    <div class="form-group">
+                        @if (IsCustomer)
+                        {
+                            <textarea class="form-control mb-3" rows="10" id="txtMessage" name="txtMessage" required="required">@ViewBag.Message</textarea>
+                        }
+                        else
+                        {
+                            <select class="form-control" id="status" name="status" required>
+                                <option value="@Pending">Pending</option>
+                                <option value="@Resolved">Resolved</option>
+                                <option value="@Dismissed">Dismissed</option>
+                            </select>
+                        }
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" id="btnSave" class="btn_1 rounded full-width"> @((IsCustomer && ViewBag.ComplaintID ==0) ?"Create": "Update")</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <input type="hidden" id="ComplaintID" value="@ViewBag.ComplaintID" />
+    <input type="hidden" id="StatusID" value="@ViewBag.StatusID" />
+
+    
+</main>
+
+@section PageJS{
+    <script src="@(ViewBag.StaticResources)/js/pages/add-edit-complaint.js@(ViewBag.BundleVersion)"></script>
+}

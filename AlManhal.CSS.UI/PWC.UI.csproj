@@ -1,0 +1,160 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <AssemblyName>PWC.UI</AssemblyName>
+    <RootNamespace>PWC.UI</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Upload\**" />
+    <Content Remove="Upload\**" />
+    <EmbeddedResource Remove="Upload\**" />
+    <None Remove="Upload\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BuildBundlerMinifier" Version="2.8.391" />
+    <PackageReference Include="EntityFramework" Version="6.1.3" />
+    <PackageReference Include="EPPlus" Version="4.5.3.1" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Session" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.2.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="2.2.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="4.8.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.5.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.8.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+
+    <ProjectReference Include="..\AlManhal.CSS.Business\PWC.Business.csproj" />
+
+    <ProjectReference Include="..\AlManhal.CSS.Common\PWC.Common.csproj" />
+
+    <ProjectReference Include="..\AlManhal.CSS.Data\PWC.Data.csproj" />
+
+    <ProjectReference Include="..\AlManhal.CSS.Entities\PWC.Entities.csproj" />
+
+    <ProjectReference Include="..\AlManhal.CSS.Resources\PWC.Resources.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Web" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="nlog.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Assets\css\skins\square\yellow.psd" />
+    <None Include="wwwroot\Assets\js\common_scripts.js" />
+    <None Include="wwwroot\Assets\js\jquery-2.2.4.min.js" />
+    <None Include="wwwroot\Assets\js\jquery.cookiebar.js" />
+    <None Include="wwwroot\Assets\js\localization\localized-text-ar.js" />
+    <None Include="wwwroot\Assets\js\localization\localized-text-en.js" />
+    <None Include="wwwroot\Assets\js\localization\localized-text-fr.js" />
+    <None Include="wwwroot\Assets\js\localization\localized-text-tr.js" />
+    <None Include="wwwroot\Assets\js\main.js" />
+    <None Include="wwwroot\Assets\js\modernizr.js" />
+    <None Include="wwwroot\Assets\js\video_header.js" />
+    <None Include="wwwroot\Assets\plugins\bootstrap-datepicker\js\bootstrap-datepicker.js" />
+    <None Include="wwwroot\Assets\plugins\bootstrap-datepicker\js\bootstrap-datepicker.min.js" />
+    <None Include="wwwroot\Assets\plugins\responsive-tabs\js\jquery.responsiveTabs.js" />
+    <None Include="wwwroot\Assets\plugins\responsive-tabs\js\jquery.responsiveTabs.min.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\css\bootstrap\tabulator_bootstrap.min.css.map" />
+    <None Include="wwwroot\Assets\plugins\tabulator\css\bootstrap\tabulator_bootstrap4.min.css.map" />
+    <None Include="wwwroot\Assets\plugins\tabulator\css\bulma\tabulator_bulma.min.css.map" />
+    <None Include="wwwroot\Assets\plugins\tabulator\css\semantic-ui\tabulator_semantic-ui.min.css.map" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\jquery_wrapper.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\jquery_wrapper.min.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\accessor.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\accessor.min.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\ajax.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\ajax.min.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\calculation_colums.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\calculation_colums.min.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\clipboard.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\clipboard.min.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\data_tree.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\data_tree.min.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\download.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\download.min.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\edit.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\edit.min.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\filter.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\filter.min.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\format.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\format.min.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\frozen_columns.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\frozen_columns.min.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\frozen_rows.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\frozen_rows.min.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\group_rows.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\group_rows.min.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\history.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\history.min.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\html_table_import.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\html_table_import.min.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\keybindings.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\keybindings.min.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\moveable_columns.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\moveable_columns.min.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\moveable_rows.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\moveable_rows.min.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\mutator.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\mutator.min.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\page.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\page.min.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\persistence.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\persistence.min.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\reactive_data.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\reactive_data.min.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\resize_columns.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\resize_columns.min.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\resize_rows.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\resize_rows.min.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\resize_table.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\resize_table.min.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\responsive_layout.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\responsive_layout.min.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\select_row.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\select_row.min.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\sort.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\sort.min.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\validate.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\modules\validate.min.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\tabulator.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\tabulator.min.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\tabulator_core.js" />
+    <None Include="wwwroot\Assets\plugins\tabulator\js\tabulator_core.min.js" />
+    <None Include="wwwroot\Assets\plugins\tooltipster\js\plugins\tooltipster\SVG\tooltipster-SVG.js" />
+    <None Include="wwwroot\Assets\plugins\tooltipster\js\plugins\tooltipster\SVG\tooltipster-SVG.min.js" />
+    <None Include="wwwroot\Assets\plugins\tooltipster\js\tooltipster.bundle.js" />
+    <None Include="wwwroot\Assets\plugins\tooltipster\js\tooltipster.bundle.min.js" />
+    <None Include="wwwroot\Assets\plugins\tooltipster\js\tooltipster.main.js" />
+    <None Include="wwwroot\Assets\plugins\tooltipster\js\tooltipster.main.min.js" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,875 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PendingIssueEmail" xml:space="preserve">
+    <value>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;head&gt;
+    &lt;title&gt;&lt;/title&gt;
+    &lt;style type="text/css"&gt;
+        p.MsoNormal {
+            margin-bottom: .0001pt;
+            font-size: 11.0pt;
+            font-family: "Calibri", "sans-serif";
+            margin-left: 0cm;
+            margin-right: 0cm;
+            margin-top: 0cm;
+        }
+
+        p {
+            margin-right: 0cm;
+            margin-left: 0cm;
+            font-size: 12.0pt;
+            font-family: "Times New Roman", "serif";
+        }
+
+        table.MsoNormalTable {
+            font-size: 11.0pt;
+            font-family: "Calibri", "sans-serif";
+        }
+
+        a:link {
+            color: blue;
+            text-decoration: underline;
+            text-underline: single;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;p class="MsoNormal"&gt;
+        &lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;
+    &lt;/p&gt;
+    &lt;div align="center"&gt;
+        &lt;table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="width: 100.0%; mso-cellspacing: 0cm; background: #E0E4EF; mso-yfti-tbllook: 1184; mso-padding-alt: 0cm 0cm 0cm 0cm"
+            width="100%"&gt;
+            &lt;tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; mso-yfti-lastrow: yes"&gt;
+                &lt;td style="padding: 0cm 0cm 0cm 0cm" valign="top"&gt;
+                    &lt;div align="center"&gt;
+                        &lt;table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="width: 375pt; mso-cellspacing: 0cm; background: white; mso-yfti-tbllook: 1184; mso-padding-alt: 0cm 0cm 0cm 0cm"
+                            width="500"&gt;
+                            &lt;tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes"&gt;
+                                &lt;td style="padding: 0cm 0cm 0cm 0cm" valign="top"&gt;
+                                    &lt;div align="center"&gt;
+                                        &lt;table border="1" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="width: 100.0%; mso-cellspacing: 0cm; background: white; border: none; border-bottom: solid #28A745 4.5pt; mso-yfti-tbllook: 1184; mso-padding-alt: 0cm 0cm 0cm 0cm"
+                                            width="100%"&gt;
+                                            &lt;tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; mso-yfti-lastrow: yes; height: 33.75pt"&gt;
+                                                &lt;td style="border: none; background: #F7F8F9; padding: 0cm 0cm 0cm 0cm; height: 33.75pt"&gt;
+                                                    &lt;p class="MsoNormal"&gt;
+                                                        &lt;!--[if gte vml 1]&gt;
+                                                        &lt;v:shape id="Picture_x0020_5"
+       o:spid="_x0000_s1026" type="#_x0000_t75" alt="King Abdulaziz scientific platform"
+       href="https://kaupp.sa/" style='position:absolute;margin-left:10.5pt;
+       margin-top:84pt;width:412.5pt;height:45.75pt;z-index:251657216;
+       visibility:visible' o:button="t"&gt;
+       &lt;v:imagedata src="https://static.almanhal.com/images/kau-email-header.png"
+        o:title="King Abdulaziz scientific platform" xmlns:v="urn:schemas-microsoft-com:vml"/&gt;
+       &lt;w:wrap type="square" xmlns:w="urn:schemas-microsoft-com:office:word"/&gt;
+      &lt;/v:shape&gt;&lt;![endif]--&gt;
+                                                        &lt;![if !vml]&gt;&lt;a href="https://kaupp.sa/"&gt;
+                                                            &lt;img align="left" alt="King Abdulaziz scientific platform" border="0" height="61" hspace="12" src="https://static.almanhal.com/images/kau-email-header.png"
+                                                                v:shapes="Picture_x0020_2" width="550" /&gt;&lt;/a&gt;&lt;![endif]&gt;&lt;span style="font-size: 10.0pt"&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;
+                                                    &lt;/p&gt;
+                                                &lt;/td&gt;
+                                            &lt;/tr&gt;
+                                        &lt;/table&gt;
+                                    &lt;/div&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr style="mso-yfti-irow: 1"&gt;
+                                &lt;td style="padding: 0cm 0cm 0cm 0cm" valign="top"&gt;
+                                    &lt;div align="center"&gt;
+                                        &lt;table id="templateBody" border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable"
+                                            style="width: 369.7pt; mso-cellspacing: 0cm; mso-yfti-tbllook: 1184; mso-padding-alt: 0cm 0cm 0cm 0cm"
+                                            width="493"&gt;
+                                            &lt;tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; mso-yfti-lastrow: yes; height: 100.0%"&gt;
+                                                &lt;td style="background: white; padding: 0cm 0cm 0cm 0cm;" valign="top"&gt;
+                                                    &lt;table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="width: 383.9pt; mso-cellspacing: 0cm; mso-yfti-tbllook: 1184; mso-padding-alt: 0cm 0cm 0cm 0cm"
+                                                        width="512"&gt;
+                                                        &lt;tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; mso-yfti-lastrow: yes; height: 100.0%"&gt;
+                                                            &lt;td style="padding: 15.0pt 15.0pt 15.0pt 15.0pt;" valign="top"&gt;
+                                                                &lt;table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="width: 352.9pt; mso-cellspacing: 0cm; mso-yfti-tbllook: 1184; mso-padding-alt: 0cm 0cm 0cm 0cm"
+                                                                    width="471"&gt;
+                                                                    &lt;tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; height: 31.65pt"&gt;
+                                                                        &lt;td style="width: 352.9pt; padding: 0cm 0cm 0cm 0cm; height: 31.65pt" width="471"&gt;
+                                                                            &lt;p class="MsoNormal"&gt;
+																				Dear {Name},&lt;br /&gt;&lt;br /&gt;
+																				We would like to inform you that your thesis status is now 'Pending Issue' for the following reason/s: 
+																				&lt;br /&gt;&lt;br /&gt;
+																				{Notes}
+																				&lt;br /&gt;&lt;br /&gt;
+																				Kindly work on applying the necessary updates and submit your thesis again.
+																				&lt;br /&gt; &lt;br /&gt;
+                                                                            &lt;/p&gt;
+                                                                            &lt;p class="MsoNormal"&gt;
+                                                                                &lt;span style="font-size: 8.5pt; font-family: &amp;quot; trebuchet ms&amp;quot; ,&amp;quot; sans-serif&amp;quot;"&gt;
+                                                                                    &lt;o:p&gt;
+                                                                                &amp;nbsp;&lt;/o:p&gt;
+                                                                                &lt;/span&gt;
+                                                                            &lt;/p&gt;
+                                                                            &lt;p class="MsoNormal"&gt;
+                                                                                &lt;span&gt;Thanks you,&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;
+                                                                            &lt;/p&gt;
+                                                                            &lt;p class="MsoNormal"&gt;
+                                                                                &lt;span&gt;King Abdulaziz University Publications Platform&lt;/span&gt;&lt;span style="font-size: 12.0pt; color: #28A745"&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;
+                                                                            &lt;/p&gt;
+                                                                        &lt;/td&gt;
+                                                                    &lt;/tr&gt;
+                                                                    &lt;tr style="mso-yfti-irow: 1; mso-yfti-lastrow: yes; height: 62.85pt"&gt;
+                                                                        &lt;td style="width: 352.9pt; padding: 0cm 0cm 0cm 0cm; height: 62.85pt" width="471"&gt;
+                                                                            &lt;p&gt;
+                                                                                &lt;a href="https://kaupp.sa/"&gt;&lt;span style="color: #3B5998; text-decoration: none; text-underline: none"&gt;
+                                                                                    &lt;!--[if gte vml 1]&gt;&lt;v:shape
+           id="_x0000_i1040" type="#_x0000_t75" alt="cid:image003.png@01CC87A5.F38C17E0"
+           style='width:40.5pt;height:40.5pt'&gt;
+           &lt;v:imagedata src="https://static.almanhal.com/images/kau-email-logo.png"
+            o:href="cid:image007.png@01CD26BB.837DC510" xmlns:v="urn:schemas-microsoft-com:vml"/&gt;
+          &lt;/v:shape&gt;&lt;![endif]--&gt;
+                                                                                    &lt;![if !vml]&gt;
+                                                                                    &lt;img alt="cid:image003.png@01CC87A5.F38C17E0" border="0" height="61" src="https://static.almanhal.com/images/kau-email-logo.png"
+                                                                                        v:shapes="_x0000_i1040" width="54" /&gt;&lt;![endif]&gt;&lt;/span&gt;&lt;/a&gt;
+                                                                            &lt;/p&gt;
+                                                                        &lt;/td&gt;
+                                                                    &lt;/tr&gt;
+                                                                &lt;/table&gt;
+                                                                &lt;p class="MsoNormal"&gt;
+                                                                    &lt;span style="font-size: 12.0pt; font-family: ; times new roman; serif;"&gt;
+                                                                        &lt;o:p&gt;&lt;/o:p&gt;
+                                                                    &lt;/span&gt;
+                                                                &lt;/p&gt;
+                                                            &lt;/td&gt;
+                                                        &lt;/tr&gt;
+                                                    &lt;/table&gt;
+                                                &lt;/td&gt;
+                                            &lt;/tr&gt;
+                                        &lt;/table&gt;
+                                    &lt;/div&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr style="mso-yfti-irow: 2; mso-yfti-lastrow: yes"&gt;
+                                &lt;td style="padding: 0cm 0cm 0cm 0cm" valign="top"&gt;
+                                    &lt;div align="center"&gt;
+                                        &lt;table id="templateFooter" border="1" cellpadding="0" cellspacing="0" class="MsoNormalTable"
+                                            style="width: 375.0pt; mso-cellspacing: 0cm; background: white; border: none; border-top: solid #28A745 3.0pt; mso-yfti-tbllook: 1184; mso-padding-alt: 0cm 0cm 0cm 0cm"
+                                            width="500"&gt;
+                                            &lt;tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; mso-yfti-lastrow: yes"&gt;
+                                                &lt;td style="border: none; padding: 7.5pt 7.5pt 7.5pt 7.5pt" valign="top"&gt;
+                                                    &lt;table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="width: 100.0%; mso-cellspacing: 0cm; mso-yfti-tbllook: 1184; mso-padding-alt: 0cm 0cm 0cm 0cm"
+                                                        width="100%"&gt;
+                                                        &lt;tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; mso-yfti-lastrow: yes"&gt;
+                                                            &lt;td style="width:100%; padding: 7.5pt 7.5pt 7.5pt 7.5pt" valign="top" width="250"&gt;
+                                                                &lt;p align="center" class="MsoNormal" style="text-align: center; line-height: 125%"&gt;
+                                                                    &lt;em&gt;&lt;span style="font-size: 8.5pt; line-height: 125%; font-family: Arial,sans-serif; color: #28A745"&gt;© 2010-{{CurrentYear}} Al Manhal. All rights reserved.&lt;/span&gt;&lt;/em&gt;&lt;span
+                                                                        style="font-size: 8.5pt; line-height: 125%; font-family: Arial,sans-serif; color: #28A745"&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;
+                                                                &lt;/p&gt;
+                                                            &lt;/td&gt;
+                                                            &lt;td id="monkeyRewards" style="width: 142.5pt; padding: 7.5pt 7.5pt 7.5pt 7.5pt" valign="top"
+                                                                width="190"&gt;
+                                                                &lt;p class="MsoNormal"&gt;
+                                                                    &amp;nbsp;&lt;span style="font-size: 12.0pt"&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;
+                                                                &lt;/p&gt;
+                                                            &lt;/td&gt;
+                                                        &lt;/tr&gt;
+                                                    &lt;/table&gt;
+                                                &lt;/td&gt;
+                                            &lt;/tr&gt;
+                                        &lt;/table&gt;
+                                    &lt;/div&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                        &lt;/table&gt;
+                    &lt;/div&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/table&gt;
+    &lt;/div&gt;
+    &lt;p class="MsoNormal"&gt;
+        &lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;
+    &lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="PendingIssueEmailSubject" xml:space="preserve">
+    <value>KAUPP - Thesis is flipped to pending issue status</value>
+  </data>
+  <data name="RejectedThesisEmail" xml:space="preserve">
+    <value>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;head&gt;
+    &lt;title&gt;&lt;/title&gt;
+    &lt;style type="text/css"&gt;
+        p.MsoNormal {
+            margin-bottom: .0001pt;
+            font-size: 11.0pt;
+            font-family: "Calibri", "sans-serif";
+            margin-left: 0cm;
+            margin-right: 0cm;
+            margin-top: 0cm;
+        }
+
+        p {
+            margin-right: 0cm;
+            margin-left: 0cm;
+            font-size: 12.0pt;
+            font-family: "Times New Roman", "serif";
+        }
+
+        table.MsoNormalTable {
+            font-size: 11.0pt;
+            font-family: "Calibri", "sans-serif";
+        }
+
+        a:link {
+            color: blue;
+            text-decoration: underline;
+            text-underline: single;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;p class="MsoNormal"&gt;
+        &lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;
+    &lt;/p&gt;
+    &lt;div align="center"&gt;
+        &lt;table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="width: 100.0%; mso-cellspacing: 0cm; background: #E0E4EF; mso-yfti-tbllook: 1184; mso-padding-alt: 0cm 0cm 0cm 0cm"
+            width="100%"&gt;
+            &lt;tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; mso-yfti-lastrow: yes"&gt;
+                &lt;td style="padding: 0cm 0cm 0cm 0cm" valign="top"&gt;
+                    &lt;div align="center"&gt;
+                        &lt;table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="width: 375pt; mso-cellspacing: 0cm; background: white; mso-yfti-tbllook: 1184; mso-padding-alt: 0cm 0cm 0cm 0cm"
+                            width="500"&gt;
+                            &lt;tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes"&gt;
+                                &lt;td style="padding: 0cm 0cm 0cm 0cm" valign="top"&gt;
+                                    &lt;div align="center"&gt;
+                                        &lt;table border="1" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="width: 100.0%; mso-cellspacing: 0cm; background: white; border: none; border-bottom: solid #28A745 4.5pt; mso-yfti-tbllook: 1184; mso-padding-alt: 0cm 0cm 0cm 0cm"
+                                            width="100%"&gt;
+                                            &lt;tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; mso-yfti-lastrow: yes; height: 33.75pt"&gt;
+                                                &lt;td style="border: none; background: #F7F8F9; padding: 0cm 0cm 0cm 0cm; height: 33.75pt"&gt;
+                                                    &lt;p class="MsoNormal"&gt;
+                                                        &lt;!--[if gte vml 1]&gt;
+                                                        &lt;v:shape id="Picture_x0020_5"
+       o:spid="_x0000_s1026" type="#_x0000_t75" alt="King Abdulaziz scientific platform"
+       href="https://kaupp.sa/" style='position:absolute;margin-left:10.5pt;
+       margin-top:84pt;width:412.5pt;height:45.75pt;z-index:251657216;
+       visibility:visible' o:button="t"&gt;
+       &lt;v:imagedata src="https://static.almanhal.com/images/kau-email-header.png"
+        o:title="King Abdulaziz scientific platform" xmlns:v="urn:schemas-microsoft-com:vml"/&gt;
+       &lt;w:wrap type="square" xmlns:w="urn:schemas-microsoft-com:office:word"/&gt;
+      &lt;/v:shape&gt;&lt;![endif]--&gt;
+                                                        &lt;![if !vml]&gt;&lt;a href="https://kaupp.sa/"&gt;
+                                                            &lt;img align="left" alt="King Abdulaziz scientific platform" border="0" height="61" hspace="12" src="https://static.almanhal.com/images/kau-email-header.png"
+                                                                v:shapes="Picture_x0020_2" width="550" /&gt;&lt;/a&gt;&lt;![endif]&gt;&lt;span style="font-size: 10.0pt"&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;
+                                                    &lt;/p&gt;
+                                                &lt;/td&gt;
+                                            &lt;/tr&gt;
+                                        &lt;/table&gt;
+                                    &lt;/div&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr style="mso-yfti-irow: 1"&gt;
+                                &lt;td style="padding: 0cm 0cm 0cm 0cm" valign="top"&gt;
+                                    &lt;div align="center"&gt;
+                                        &lt;table id="templateBody" border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable"
+                                            style="width: 369.7pt; mso-cellspacing: 0cm; mso-yfti-tbllook: 1184; mso-padding-alt: 0cm 0cm 0cm 0cm"
+                                            width="493"&gt;
+                                            &lt;tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; mso-yfti-lastrow: yes; height: 100.0%"&gt;
+                                                &lt;td style="background: white; padding: 0cm 0cm 0cm 0cm;" valign="top"&gt;
+                                                    &lt;table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="width: 383.9pt; mso-cellspacing: 0cm; mso-yfti-tbllook: 1184; mso-padding-alt: 0cm 0cm 0cm 0cm"
+                                                        width="512"&gt;
+                                                        &lt;tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; mso-yfti-lastrow: yes; height: 100.0%"&gt;
+                                                            &lt;td style="padding: 15.0pt 15.0pt 15.0pt 15.0pt;" valign="top"&gt;
+                                                                &lt;table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="width: 352.9pt; mso-cellspacing: 0cm; mso-yfti-tbllook: 1184; mso-padding-alt: 0cm 0cm 0cm 0cm"
+                                                                    width="471"&gt;
+                                                                    &lt;tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; height: 31.65pt"&gt;
+                                                                        &lt;td style="width: 352.9pt; padding: 0cm 0cm 0cm 0cm; height: 31.65pt" width="471"&gt;
+                                                                            &lt;p class="MsoNormal"&gt;
+																				Dear {Name},&lt;br /&gt;&lt;br /&gt;
+																				We would like to inform you that your thesis has been rejected for the below reason(s), kindly work on applying the necessary updates and submit your thesis again.
+																				&lt;br /&gt;&lt;br /&gt;
+																				{Notes}
+																				&lt;br /&gt;&lt;br /&gt;
+                                                                            &lt;/p&gt;
+                                                                            &lt;p class="MsoNormal"&gt;
+                                                                                &lt;span style="font-size: 8.5pt; font-family: &amp;quot; trebuchet ms&amp;quot; ,&amp;quot; sans-serif&amp;quot;"&gt;
+                                                                                    &lt;o:p&gt;
+                                                                                &amp;nbsp;&lt;/o:p&gt;
+                                                                                &lt;/span&gt;
+                                                                            &lt;/p&gt;
+                                                                            &lt;p class="MsoNormal"&gt;
+                                                                                &lt;span&gt;Thanks you,&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;
+                                                                            &lt;/p&gt;
+                                                                            &lt;p class="MsoNormal"&gt;
+                                                                                &lt;span&gt;King Abdulaziz University Publications Platform&lt;/span&gt;&lt;span style="font-size: 12.0pt; color: #28A745"&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;
+                                                                            &lt;/p&gt;
+                                                                        &lt;/td&gt;
+                                                                    &lt;/tr&gt;
+                                                                    &lt;tr style="mso-yfti-irow: 1; mso-yfti-lastrow: yes; height: 62.85pt"&gt;
+                                                                        &lt;td style="width: 352.9pt; padding: 0cm 0cm 0cm 0cm; height: 62.85pt" width="471"&gt;
+                                                                            &lt;p&gt;
+                                                                                &lt;a href="https://kaupp.sa/"&gt;&lt;span style="color: #3B5998; text-decoration: none; text-underline: none"&gt;
+                                                                                    &lt;!--[if gte vml 1]&gt;&lt;v:shape
+           id="_x0000_i1040" type="#_x0000_t75" alt="cid:image003.png@01CC87A5.F38C17E0"
+           style='width:40.5pt;height:40.5pt'&gt;
+           &lt;v:imagedata src="https://static.almanhal.com/images/kau-email-logo.png"
+            o:href="cid:image007.png@01CD26BB.837DC510" xmlns:v="urn:schemas-microsoft-com:vml"/&gt;
+          &lt;/v:shape&gt;&lt;![endif]--&gt;
+                                                                                    &lt;![if !vml]&gt;
+                                                                                    &lt;img alt="cid:image003.png@01CC87A5.F38C17E0" border="0" height="61" src="https://static.almanhal.com/images/kau-email-logo.png"
+                                                                                        v:shapes="_x0000_i1040" width="54" /&gt;&lt;![endif]&gt;&lt;/span&gt;&lt;/a&gt;
+                                                                            &lt;/p&gt;
+                                                                        &lt;/td&gt;
+                                                                    &lt;/tr&gt;
+                                                                &lt;/table&gt;
+                                                                &lt;p class="MsoNormal"&gt;
+                                                                    &lt;span style="font-size: 12.0pt; font-family: ; times new roman; serif;"&gt;
+                                                                        &lt;o:p&gt;&lt;/o:p&gt;
+                                                                    &lt;/span&gt;
+                                                                &lt;/p&gt;
+                                                            &lt;/td&gt;
+                                                        &lt;/tr&gt;
+                                                    &lt;/table&gt;
+                                                &lt;/td&gt;
+                                            &lt;/tr&gt;
+                                        &lt;/table&gt;
+                                    &lt;/div&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr style="mso-yfti-irow: 2; mso-yfti-lastrow: yes"&gt;
+                                &lt;td style="padding: 0cm 0cm 0cm 0cm" valign="top"&gt;
+                                    &lt;div align="center"&gt;
+                                        &lt;table id="templateFooter" border="1" cellpadding="0" cellspacing="0" class="MsoNormalTable"
+                                            style="width: 375.0pt; mso-cellspacing: 0cm; background: white; border: none; border-top: solid #28A745 3.0pt; mso-yfti-tbllook: 1184; mso-padding-alt: 0cm 0cm 0cm 0cm"
+                                            width="500"&gt;
+                                            &lt;tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; mso-yfti-lastrow: yes"&gt;
+                                                &lt;td style="border: none; padding: 7.5pt 7.5pt 7.5pt 7.5pt" valign="top"&gt;
+                                                    &lt;table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="width: 100.0%; mso-cellspacing: 0cm; mso-yfti-tbllook: 1184; mso-padding-alt: 0cm 0cm 0cm 0cm"
+                                                        width="100%"&gt;
+                                                        &lt;tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; mso-yfti-lastrow: yes"&gt;
+                                                            &lt;td style="width:100%; padding: 7.5pt 7.5pt 7.5pt 7.5pt" valign="top" width="250"&gt;
+                                                                &lt;p align="center" class="MsoNormal" style="text-align: center; line-height: 125%"&gt;
+                                                                    &lt;em&gt;&lt;span style="font-size: 8.5pt; line-height: 125%; font-family: Arial,sans-serif; color: #28A745"&gt;© 2010-{{CurrentYear}} Al Manhal. All rights reserved.&lt;/span&gt;&lt;/em&gt;&lt;span
+                                                                        style="font-size: 8.5pt; line-height: 125%; font-family: Arial,sans-serif; color: #28A745"&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;
+                                                                &lt;/p&gt;
+                                                            &lt;/td&gt;
+                                                            &lt;td id="monkeyRewards" style="width: 142.5pt; padding: 7.5pt 7.5pt 7.5pt 7.5pt" valign="top"
+                                                                width="190"&gt;
+                                                                &lt;p class="MsoNormal"&gt;
+                                                                    &amp;nbsp;&lt;span style="font-size: 12.0pt"&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;
+                                                                &lt;/p&gt;
+                                                            &lt;/td&gt;
+                                                        &lt;/tr&gt;
+                                                    &lt;/table&gt;
+                                                &lt;/td&gt;
+                                            &lt;/tr&gt;
+                                        &lt;/table&gt;
+                                    &lt;/div&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                        &lt;/table&gt;
+                    &lt;/div&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/table&gt;
+    &lt;/div&gt;
+    &lt;p class="MsoNormal"&gt;
+        &lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;
+    &lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="RejectedThesisEmailSubject" xml:space="preserve">
+    <value>KAUPP - Thesis has been rejected</value>
+  </data>
+  <data name="SuccessPublishingThesisEmail" xml:space="preserve">
+    <value>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;head&gt;
+    &lt;title&gt;&lt;/title&gt;
+    &lt;style type="text/css"&gt;
+        p.MsoNormal {
+            margin-bottom: .0001pt;
+            font-size: 11.0pt;
+            font-family: "Calibri", "sans-serif";
+            margin-left: 0cm;
+            margin-right: 0cm;
+            margin-top: 0cm;
+        }
+
+        p {
+            margin-right: 0cm;
+            margin-left: 0cm;
+            font-size: 12.0pt;
+            font-family: "Times New Roman", "serif";
+        }
+
+        table.MsoNormalTable {
+            font-size: 11.0pt;
+            font-family: "Calibri", "sans-serif";
+        }
+
+        a:link {
+            color: blue;
+            text-decoration: underline;
+            text-underline: single;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;p class="MsoNormal"&gt;
+        &lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;
+    &lt;/p&gt;
+    &lt;div align="center"&gt;
+        &lt;table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="width: 100.0%; mso-cellspacing: 0cm; background: #E0E4EF; mso-yfti-tbllook: 1184; mso-padding-alt: 0cm 0cm 0cm 0cm"
+            width="100%"&gt;
+            &lt;tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; mso-yfti-lastrow: yes"&gt;
+                &lt;td style="padding: 0cm 0cm 0cm 0cm" valign="top"&gt;
+                    &lt;div align="center"&gt;
+                        &lt;table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="width: 375pt; mso-cellspacing: 0cm; background: white; mso-yfti-tbllook: 1184; mso-padding-alt: 0cm 0cm 0cm 0cm"
+                            width="500"&gt;
+                            &lt;tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes"&gt;
+                                &lt;td style="padding: 0cm 0cm 0cm 0cm" valign="top"&gt;
+                                    &lt;div align="center"&gt;
+                                        &lt;table border="1" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="width: 100.0%; mso-cellspacing: 0cm; background: white; border: none; border-bottom: solid #28A745 4.5pt; mso-yfti-tbllook: 1184; mso-padding-alt: 0cm 0cm 0cm 0cm"
+                                            width="100%"&gt;
+                                            &lt;tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; mso-yfti-lastrow: yes; height: 33.75pt"&gt;
+                                                &lt;td style="border: none; background: #F7F8F9; padding: 0cm 0cm 0cm 0cm; height: 33.75pt"&gt;
+                                                    &lt;p class="MsoNormal"&gt;
+                                                        &lt;!--[if gte vml 1]&gt;
+                                                        &lt;v:shape id="Picture_x0020_5"
+       o:spid="_x0000_s1026" type="#_x0000_t75" alt="King Abdulaziz scientific platform"
+       href="https://kaupp.sa/" style='position:absolute;margin-left:10.5pt;
+       margin-top:84pt;width:412.5pt;height:45.75pt;z-index:251657216;
+       visibility:visible' o:button="t"&gt;
+       &lt;v:imagedata src="https://static.almanhal.com/images/kau-email-header.png"
+        o:title="King Abdulaziz scientific platform" xmlns:v="urn:schemas-microsoft-com:vml"/&gt;
+       &lt;w:wrap type="square" xmlns:w="urn:schemas-microsoft-com:office:word"/&gt;
+      &lt;/v:shape&gt;&lt;![endif]--&gt;
+                                                        &lt;![if !vml]&gt;&lt;a href="https://kaupp.sa/"&gt;
+                                                            &lt;img align="left" alt="King Abdulaziz scientific platform" border="0" height="61" hspace="12" src="https://static.almanhal.com/images/kau-email-header.png"
+                                                                v:shapes="Picture_x0020_2" width="550" /&gt;&lt;/a&gt;&lt;![endif]&gt;&lt;span style="font-size: 10.0pt"&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;
+                                                    &lt;/p&gt;
+                                                &lt;/td&gt;
+                                            &lt;/tr&gt;
+                                        &lt;/table&gt;
+                                    &lt;/div&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr style="mso-yfti-irow: 1"&gt;
+                                &lt;td style="padding: 0cm 0cm 0cm 0cm" valign="top"&gt;
+                                    &lt;div align="center"&gt;
+                                        &lt;table id="templateBody" border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable"
+                                            style="width: 369.7pt; mso-cellspacing: 0cm; mso-yfti-tbllook: 1184; mso-padding-alt: 0cm 0cm 0cm 0cm"
+                                            width="493"&gt;
+                                            &lt;tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; mso-yfti-lastrow: yes; height: 100.0%"&gt;
+                                                &lt;td style="background: white; padding: 0cm 0cm 0cm 0cm;" valign="top"&gt;
+                                                    &lt;table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="width: 383.9pt; mso-cellspacing: 0cm; mso-yfti-tbllook: 1184; mso-padding-alt: 0cm 0cm 0cm 0cm"
+                                                        width="512"&gt;
+                                                        &lt;tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; mso-yfti-lastrow: yes; height: 100.0%"&gt;
+                                                            &lt;td style="padding: 15.0pt 15.0pt 15.0pt 15.0pt;" valign="top"&gt;
+                                                                &lt;table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="width: 352.9pt; mso-cellspacing: 0cm; mso-yfti-tbllook: 1184; mso-padding-alt: 0cm 0cm 0cm 0cm"
+                                                                    width="471"&gt;
+                                                                    &lt;tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; height: 31.65pt"&gt;
+                                                                        &lt;td style="width: 352.9pt; padding: 0cm 0cm 0cm 0cm; height: 31.65pt" width="471"&gt;
+                                                                            &lt;p class="MsoNormal"&gt;
+																				Dear {Name},&lt;br /&gt;&lt;br /&gt;
+																				Congratulations!
+																				&lt;br /&gt;
+																				We would like to inform you that your thesis has been approved and published on the KAUPP, you can reach it out on the platform:
+																				
+																				&lt;a href="https://kaupp.sa/Reader/Thesis/{ThesisID}"&gt;https://kaupp.sa&lt;/a&gt;
+																				&lt;br /&gt;&lt;br /&gt;																			
+                                                                            &lt;/p&gt;
+                                                                            &lt;p class="MsoNormal"&gt;
+                                                                                &lt;span style="font-size: 8.5pt; font-family: &amp;quot; trebuchet ms&amp;quot; ,&amp;quot; sans-serif&amp;quot;"&gt;
+                                                                                    &lt;o:p&gt;
+                                                                                &amp;nbsp;&lt;/o:p&gt;
+                                                                                &lt;/span&gt;
+                                                                            &lt;/p&gt;
+                                                                            &lt;p class="MsoNormal"&gt;
+                                                                                &lt;span&gt;Thanks you,&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;
+                                                                            &lt;/p&gt;
+                                                                            &lt;p class="MsoNormal"&gt;
+                                                                                &lt;span&gt;King Abdulaziz University Publications Platform&lt;/span&gt;&lt;span style="font-size: 12.0pt; color: #28A745"&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;
+                                                                            &lt;/p&gt;
+                                                                        &lt;/td&gt;
+                                                                    &lt;/tr&gt;
+                                                                    &lt;tr style="mso-yfti-irow: 1; mso-yfti-lastrow: yes; height: 62.85pt"&gt;
+                                                                        &lt;td style="width: 352.9pt; padding: 0cm 0cm 0cm 0cm; height: 62.85pt" width="471"&gt;
+                                                                            &lt;p&gt;
+                                                                                &lt;a href="https://kaupp.sa/"&gt;&lt;span style="color: #3B5998; text-decoration: none; text-underline: none"&gt;
+                                                                                    &lt;!--[if gte vml 1]&gt;&lt;v:shape
+           id="_x0000_i1040" type="#_x0000_t75" alt="cid:image003.png@01CC87A5.F38C17E0"
+           style='width:40.5pt;height:40.5pt'&gt;
+           &lt;v:imagedata src="https://static.almanhal.com/images/kau-email-logo.png"
+            o:href="cid:image007.png@01CD26BB.837DC510" xmlns:v="urn:schemas-microsoft-com:vml"/&gt;
+          &lt;/v:shape&gt;&lt;![endif]--&gt;
+                                                                                    &lt;![if !vml]&gt;
+                                                                                    &lt;img alt="cid:image003.png@01CC87A5.F38C17E0" border="0" height="61" src="https://static.almanhal.com/images/kau-email-logo.png"
+                                                                                        v:shapes="_x0000_i1040" width="54" /&gt;&lt;![endif]&gt;&lt;/span&gt;&lt;/a&gt;
+                                                                            &lt;/p&gt;
+                                                                        &lt;/td&gt;
+                                                                    &lt;/tr&gt;
+                                                                &lt;/table&gt;
+                                                                &lt;p class="MsoNormal"&gt;
+                                                                    &lt;span style="font-size: 12.0pt; font-family: ; times new roman; serif;"&gt;
+                                                                        &lt;o:p&gt;&lt;/o:p&gt;
+                                                                    &lt;/span&gt;
+                                                                &lt;/p&gt;
+                                                            &lt;/td&gt;
+                                                        &lt;/tr&gt;
+                                                    &lt;/table&gt;
+                                                &lt;/td&gt;
+                                            &lt;/tr&gt;
+                                        &lt;/table&gt;
+                                    &lt;/div&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr style="mso-yfti-irow: 2; mso-yfti-lastrow: yes"&gt;
+                                &lt;td style="padding: 0cm 0cm 0cm 0cm" valign="top"&gt;
+                                    &lt;div align="center"&gt;
+                                        &lt;table id="templateFooter" border="1" cellpadding="0" cellspacing="0" class="MsoNormalTable"
+                                            style="width: 375.0pt; mso-cellspacing: 0cm; background: white; border: none; border-top: solid #28A745 3.0pt; mso-yfti-tbllook: 1184; mso-padding-alt: 0cm 0cm 0cm 0cm"
+                                            width="500"&gt;
+                                            &lt;tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; mso-yfti-lastrow: yes"&gt;
+                                                &lt;td style="border: none; padding: 7.5pt 7.5pt 7.5pt 7.5pt" valign="top"&gt;
+                                                    &lt;table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="width: 100.0%; mso-cellspacing: 0cm; mso-yfti-tbllook: 1184; mso-padding-alt: 0cm 0cm 0cm 0cm"
+                                                        width="100%"&gt;
+                                                        &lt;tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; mso-yfti-lastrow: yes"&gt;
+                                                            &lt;td style="width:100%; padding: 7.5pt 7.5pt 7.5pt 7.5pt" valign="top" width="250"&gt;
+                                                                &lt;p align="center" class="MsoNormal" style="text-align: center; line-height: 125%"&gt;
+                                                                    &lt;em&gt;&lt;span style="font-size: 8.5pt; line-height: 125%; font-family: Arial,sans-serif; color: #28A745"&gt;© 2010-{{CurrentYear}} Al Manhal. All rights reserved.&lt;/span&gt;&lt;/em&gt;&lt;span
+                                                                        style="font-size: 8.5pt; line-height: 125%; font-family: Arial,sans-serif; color: #28A745"&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;
+                                                                &lt;/p&gt;
+                                                            &lt;/td&gt;
+                                                            &lt;td id="monkeyRewards" style="width: 142.5pt; padding: 7.5pt 7.5pt 7.5pt 7.5pt" valign="top"
+                                                                width="190"&gt;
+                                                                &lt;p class="MsoNormal"&gt;
+                                                                    &amp;nbsp;&lt;span style="font-size: 12.0pt"&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;
+                                                                &lt;/p&gt;
+                                                            &lt;/td&gt;
+                                                        &lt;/tr&gt;
+                                                    &lt;/table&gt;
+                                                &lt;/td&gt;
+                                            &lt;/tr&gt;
+                                        &lt;/table&gt;
+                                    &lt;/div&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                        &lt;/table&gt;
+                    &lt;/div&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/table&gt;
+    &lt;/div&gt;
+    &lt;p class="MsoNormal"&gt;
+        &lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;
+    &lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="SuccessPublishingThesisEmailSubject" xml:space="preserve">
+    <value>KAUPP - Thesis Approved and Puplished Online!</value>
+  </data>
+  <data name="SuccessSubmittingThesisEmail" xml:space="preserve">
+    <value>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;head&gt;
+    &lt;title&gt;&lt;/title&gt;
+    &lt;style type="text/css"&gt;
+        p.MsoNormal {
+            margin-bottom: .0001pt;
+            font-size: 11.0pt;
+            font-family: "Calibri", "sans-serif";
+            margin-left: 0cm;
+            margin-right: 0cm;
+            margin-top: 0cm;
+        }
+
+        p {
+            margin-right: 0cm;
+            margin-left: 0cm;
+            font-size: 12.0pt;
+            font-family: "Times New Roman", "serif";
+        }
+
+        table.MsoNormalTable {
+            font-size: 11.0pt;
+            font-family: "Calibri", "sans-serif";
+        }
+
+        a:link {
+            color: blue;
+            text-decoration: underline;
+            text-underline: single;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;p class="MsoNormal"&gt;
+        &lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;
+    &lt;/p&gt;
+    &lt;div align="center"&gt;
+        &lt;table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="width: 100.0%; mso-cellspacing: 0cm; background: #E0E4EF; mso-yfti-tbllook: 1184; mso-padding-alt: 0cm 0cm 0cm 0cm"
+            width="100%"&gt;
+            &lt;tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; mso-yfti-lastrow: yes"&gt;
+                &lt;td style="padding: 0cm 0cm 0cm 0cm" valign="top"&gt;
+                    &lt;div align="center"&gt;
+                        &lt;table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="width: 375pt; mso-cellspacing: 0cm; background: white; mso-yfti-tbllook: 1184; mso-padding-alt: 0cm 0cm 0cm 0cm"
+                            width="500"&gt;
+                            &lt;tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes"&gt;
+                                &lt;td style="padding: 0cm 0cm 0cm 0cm" valign="top"&gt;
+                                    &lt;div align="center"&gt;
+                                        &lt;table border="1" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="width: 100.0%; mso-cellspacing: 0cm; background: white; border: none; border-bottom: solid #28A745 4.5pt; mso-yfti-tbllook: 1184; mso-padding-alt: 0cm 0cm 0cm 0cm"
+                                            width="100%"&gt;
+                                            &lt;tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; mso-yfti-lastrow: yes; height: 33.75pt"&gt;
+                                                &lt;td style="border: none; background: #F7F8F9; padding: 0cm 0cm 0cm 0cm; height: 33.75pt"&gt;
+                                                    &lt;p class="MsoNormal"&gt;
+                                                        &lt;!--[if gte vml 1]&gt;
+                                                        &lt;v:shape id="Picture_x0020_5"
+       o:spid="_x0000_s1026" type="#_x0000_t75" alt="King Abdulaziz scientific platform"
+       href="https://kaupp.sa/" style='position:absolute;margin-left:10.5pt;
+       margin-top:84pt;width:412.5pt;height:45.75pt;z-index:251657216;
+       visibility:visible' o:button="t"&gt;
+       &lt;v:imagedata src="https://static.almanhal.com/images/kau-email-header.png"
+        o:title="King Abdulaziz scientific platform" xmlns:v="urn:schemas-microsoft-com:vml"/&gt;
+       &lt;w:wrap type="square" xmlns:w="urn:schemas-microsoft-com:office:word"/&gt;
+      &lt;/v:shape&gt;&lt;![endif]--&gt;
+                                                        &lt;![if !vml]&gt;&lt;a href="https://kaupp.sa/"&gt;
+                                                            &lt;img align="left" alt="King Abdulaziz scientific platform" border="0" height="61" hspace="12" src="https://static.almanhal.com/images/kau-email-header.png"
+                                                                v:shapes="Picture_x0020_2" width="550" /&gt;&lt;/a&gt;&lt;![endif]&gt;&lt;span style="font-size: 10.0pt"&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;
+                                                    &lt;/p&gt;
+                                                &lt;/td&gt;
+                                            &lt;/tr&gt;
+                                        &lt;/table&gt;
+                                    &lt;/div&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr style="mso-yfti-irow: 1"&gt;
+                                &lt;td style="padding: 0cm 0cm 0cm 0cm" valign="top"&gt;
+                                    &lt;div align="center"&gt;
+                                        &lt;table id="templateBody" border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable"
+                                            style="width: 369.7pt; mso-cellspacing: 0cm; mso-yfti-tbllook: 1184; mso-padding-alt: 0cm 0cm 0cm 0cm"
+                                            width="493"&gt;
+                                            &lt;tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; mso-yfti-lastrow: yes; height: 100.0%"&gt;
+                                                &lt;td style="background: white; padding: 0cm 0cm 0cm 0cm;" valign="top"&gt;
+                                                    &lt;table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="width: 383.9pt; mso-cellspacing: 0cm; mso-yfti-tbllook: 1184; mso-padding-alt: 0cm 0cm 0cm 0cm"
+                                                        width="512"&gt;
+                                                        &lt;tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; mso-yfti-lastrow: yes; height: 100.0%"&gt;
+                                                            &lt;td style="padding: 15.0pt 15.0pt 15.0pt 15.0pt;" valign="top"&gt;
+                                                                &lt;table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="width: 352.9pt; mso-cellspacing: 0cm; mso-yfti-tbllook: 1184; mso-padding-alt: 0cm 0cm 0cm 0cm"
+                                                                    width="471"&gt;
+                                                                    &lt;tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; height: 31.65pt"&gt;
+                                                                        &lt;td style="width: 352.9pt; padding: 0cm 0cm 0cm 0cm; height: 31.65pt" width="471"&gt;
+                                                                            &lt;p class="MsoNormal"&gt;
+																				Dear {Name},&lt;br /&gt;&lt;br /&gt;
+																				Thank you for submitting your thesis to our platform.&lt;br /&gt;
+																				Our team will review your submission details and get back to you the soonest. 
+																				&lt;br /&gt;&lt;br /&gt;																			
+                                                                            &lt;/p&gt;
+                                                                            &lt;p class="MsoNormal"&gt;
+                                                                                &lt;span style="font-size: 8.5pt; font-family: &amp;quot; trebuchet ms&amp;quot; ,&amp;quot; sans-serif&amp;quot;"&gt;
+                                                                                    &lt;o:p&gt;
+                                                                                &amp;nbsp;&lt;/o:p&gt;
+                                                                                &lt;/span&gt;
+                                                                            &lt;/p&gt;
+                                                                            &lt;p class="MsoNormal"&gt;
+                                                                                &lt;span &gt;Thanks you,&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;
+                                                                            &lt;/p&gt;
+                                                                            &lt;p class="MsoNormal"&gt;
+                                                                                &lt;span &gt;King Abdulaziz University Publications Platform&lt;/span&gt;&lt;span style="font-size: 12.0pt; color: #28A745"&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;
+                                                                            &lt;/p&gt;
+                                                                        &lt;/td&gt;
+                                                                    &lt;/tr&gt;
+                                                                    &lt;tr style="mso-yfti-irow: 1; mso-yfti-lastrow: yes; height: 62.85pt"&gt;
+                                                                        &lt;td style="width: 352.9pt; padding: 0cm 0cm 0cm 0cm; height: 62.85pt" width="471"&gt;
+                                                                            &lt;p&gt;
+                                                                                &lt;a href="https://kaupp.sa/"&gt;&lt;span style="color: #3B5998; text-decoration: none; text-underline: none"&gt;
+                                                                                    &lt;!--[if gte vml 1]&gt;&lt;v:shape
+           id="_x0000_i1040" type="#_x0000_t75" alt="cid:image003.png@01CC87A5.F38C17E0"
+           style='width:40.5pt;height:40.5pt'&gt;
+           &lt;v:imagedata src="https://static.almanhal.com/images/kau-email-logo.png"
+            o:href="cid:image007.png@01CD26BB.837DC510" xmlns:v="urn:schemas-microsoft-com:vml"/&gt;
+          &lt;/v:shape&gt;&lt;![endif]--&gt;
+                                                                                    &lt;![if !vml]&gt;
+                                                                                    &lt;img alt="cid:image003.png@01CC87A5.F38C17E0" border="0" height="61" src="https://static.almanhal.com/images/kau-email-logo.png"
+                                                                                        v:shapes="_x0000_i1040" width="54" /&gt;&lt;![endif]&gt;&lt;/span&gt;&lt;/a&gt;
+                                                                            &lt;/p&gt;
+                                                                        &lt;/td&gt;
+                                                                    &lt;/tr&gt;
+                                                                &lt;/table&gt;
+                                                                &lt;p class="MsoNormal"&gt;
+                                                                    &lt;span style="font-size: 12.0pt; font-family: ; times new roman; serif;"&gt;
+                                                                        &lt;o:p&gt;&lt;/o:p&gt;
+                                                                    &lt;/span&gt;
+                                                                &lt;/p&gt;
+                                                            &lt;/td&gt;
+                                                        &lt;/tr&gt;
+                                                    &lt;/table&gt;
+                                                &lt;/td&gt;
+                                            &lt;/tr&gt;
+                                        &lt;/table&gt;
+                                    &lt;/div&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr style="mso-yfti-irow: 2; mso-yfti-lastrow: yes"&gt;
+                                &lt;td style="padding: 0cm 0cm 0cm 0cm" valign="top"&gt;
+                                    &lt;div align="center"&gt;
+                                        &lt;table id="templateFooter" border="1" cellpadding="0" cellspacing="0" class="MsoNormalTable"
+                                            style="width: 375.0pt; mso-cellspacing: 0cm; background: white; border: none; border-top: solid #28A745 3.0pt; mso-yfti-tbllook: 1184; mso-padding-alt: 0cm 0cm 0cm 0cm"
+                                            width="500"&gt;
+                                            &lt;tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; mso-yfti-lastrow: yes"&gt;
+                                                &lt;td style="border: none; padding: 7.5pt 7.5pt 7.5pt 7.5pt" valign="top"&gt;
+                                                    &lt;table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="width: 100.0%; mso-cellspacing: 0cm; mso-yfti-tbllook: 1184; mso-padding-alt: 0cm 0cm 0cm 0cm"
+                                                        width="100%"&gt;
+                                                        &lt;tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; mso-yfti-lastrow: yes"&gt;
+                                                            &lt;td style="width:100%; padding: 7.5pt 7.5pt 7.5pt 7.5pt" valign="top" width="250"&gt;
+                                                                &lt;p align="center" class="MsoNormal" style="text-align: center; line-height: 125%"&gt;
+                                                                    &lt;em&gt;&lt;span style="font-size: 8.5pt; line-height: 125%; font-family: Arial,sans-serif; color: #28A745"&gt;© 2010-{{CurrentYear}} Al Manhal. All rights reserved.&lt;/span&gt;&lt;/em&gt;&lt;span
+                                                                        style="font-size: 8.5pt; line-height: 125%; font-family: Arial,sans-serif; color: #28A745"&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;
+                                                                &lt;/p&gt;
+                                                            &lt;/td&gt;
+                                                            &lt;td id="monkeyRewards" style="width: 142.5pt; padding: 7.5pt 7.5pt 7.5pt 7.5pt" valign="top"
+                                                                width="190"&gt;
+                                                                &lt;p class="MsoNormal"&gt;
+                                                                    &amp;nbsp;&lt;span style="font-size: 12.0pt"&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;
+                                                                &lt;/p&gt;
+                                                            &lt;/td&gt;
+                                                        &lt;/tr&gt;
+                                                    &lt;/table&gt;
+                                                &lt;/td&gt;
+                                            &lt;/tr&gt;
+                                        &lt;/table&gt;
+                                    &lt;/div&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                        &lt;/table&gt;
+                    &lt;/div&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/table&gt;
+    &lt;/div&gt;
+    &lt;p class="MsoNormal"&gt;
+        &lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;
+    &lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="SuccessSubmittingThesisEmailSubject" xml:space="preserve">
+    <value>KAUPP - Submitting a new thesis</value>
+  </data>
+</root>

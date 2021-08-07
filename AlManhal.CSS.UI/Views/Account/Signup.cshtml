@@ -1,0 +1,45 @@
+﻿@model PWC.Entities.VMs.UI.Account.SignUpVM
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.IsStickyHeader = 1;
+}
+<main>
+    <div class="login" id="SignUp">
+        <div class="content">
+            @using (Html.BeginForm("SignUp", "Account", FormMethod.Post, new { @Class = "login-form" }))
+            {
+            <h3 class="text-header pb-3">Sign Up</h3>
+                <div id="ErrorDivLoginIn" class="mt-2">
+                    @if (ViewData.ModelState.Any(x => x.Value.Errors.Any()))
+                    {
+                        <div class="alert fade in">
+                            @Html.ValidationSummary()
+                        </div>
+                    }
+                </div>
+
+                <div class="form-group">
+                    @Html.TextBoxFor(m => m.Username, new { id = "username-signup", Class = "form-control mb-3", placeholder = PWC.Resources.UI.Account.Login.UserName, type = "text", autocomplete = "off", required = "required" })
+
+                    @Html.TextBoxFor(m => m.Password, new { id = "password-signup", Class = "form-control mb-3", placeholder = PWC.Resources.UI.Account.Login.Password, type = "Password", autocomplete = "off", required = "required" })
+
+                    @Html.TextBoxFor(m => m.ConfirmePassword, new { id = "confirmePassword-signup", Class = "form-control mb-3", placeholder = "Confirme Passsword", type = "Password", autocomplete = "off", required = "required" })
+
+                    <select class="form-control" id="UserTypeID" name="UserTypeID" required>
+                        <option value="" selected>Select User Type</option>
+                        <option value="1">Admin</option>
+                        <option value="2">Customer</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" id="submite" class="btn_1 rounded full-width"> Sign Up </button>
+                </div>
+            }
+        </div>
+    </div>
+</main>
+
+@section PageCSS{
+    <link href="@(ViewBag.StaticResources)/css/pages/login.css@(ViewBag.BundleVersion)" rel="stylesheet" />
+}

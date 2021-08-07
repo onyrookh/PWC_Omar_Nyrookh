@@ -1,0 +1,86 @@
+﻿@using Microsoft.AspNetCore.Http
+@{
+    HttpContext ctx = PWC.Common.Helpers.SessionHelper.GetHttpContext();
+    bool IsIEBrowser = ctx.Request.Headers["User-Agent"].ToString().ToUpper().Contains("INTERNETEXPLORER")
+        || ctx.Request.Headers["User-Agent"].ToString().ToUpper().Contains("IE");
+
+    string RefreshSessionEndUrl = string.Format("{0}{1}", ctx.Request.Path, ctx.Request.QueryString.HasValue ? ctx.Request.QueryString.Value : string.Empty);
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    @RenderSection("Meta", required: false)
+    <title>Content Submission System</title>
+
+    <!-- BASE CSS -->
+    <link href="@(ViewBag.StaticResources)/css/bootstrap.css@(ViewBag.BundleVersion)" rel="stylesheet">
+    <link href="@(ViewBag.StaticResources)/css/style.css@(ViewBag.BundleVersion)" rel="stylesheet">
+    <link href="@(ViewBag.StaticResources)/css/vendors.css@(ViewBag.BundleVersion)" rel="stylesheet">
+
+    <link href="@(ViewBag.StaticResources)/bundles/css/SharedPlugins.min.css@(ViewBag.BundleVersion)" rel="stylesheet" />
+    <!-- YOUR CUSTOM CSS -->
+
+        <link href="@(ViewBag.StaticResources)/css/custom/custom-1.css@(ViewBag.BundleVersion)" rel="stylesheet">
+
+        <!--Custom style for IE only-->
+        @if (IsIEBrowser)
+        {
+            <link href="@(ViewBag.StaticResources)/css/custom/custom-ie.css@(ViewBag.BundleVersion)" rel="stylesheet">
+        }
+ 
+
+    @RenderSection("PluginsCSS", required: false)
+
+    <script src="@(ViewBag.StaticResources)/js/jquery-2.2.4.min.js@(ViewBag.BundleVersion)"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.9.2/jquery-ui.min.js"></script>
+    <script src="https://use.fontawesome.com/56cbffa284.js"></script>
+    @RenderSection("PageHeaderJS", required: false)
+    <link rel="shortcut icon" href="@(ViewBag.StaticResources)/images/Favicon/favicon_1.ico@(ViewBag.BundleVersion)" />
+</head>
+<body>
+    <div id="SeesionEndModal" data-backdrop="static" data-keyboard="false" class="modal fade" role="dialog" style="z-index:9999">
+        <div class="modal-dialog modal-sm" style="min-width: 400px;">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <p>@PWC.Resources.UI.Global.Text.SessionEndMsg</p>
+                    <div class="content" style="margin-top: 40px; border-radius:0!important;">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-info" style="float:@PWC.Resources.UI.Global.Variables.VAlign" href="@RefreshSessionEndUrl">
+                        @PWC.Resources.UI.Global.Text.ReloadbtnText
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <input type="hidden" value="@(ViewBag.BundleVersion)" id="hdnBundelVersion" />
+    <input type="hidden" value="@PWC.Resources.UI.Global.Variables.LanguageCode" id="hdnLanguageCode" />
+    <div id="page">
+        @RenderSection("PageCSS", required: false)
+        <Partial name="~/Views/Shared/Partials/_Header.cshtml" />
+        @RenderBody()
+
+        <input type="hidden" ID="hdnAppLang" value="@PWC.Resources.UI.Global.Variables.LanguageID" />
+        <script type="text/javascript" src="@(ViewBag.StaticResources)/js/localization/localized-text-@(PWC.Resources.UI.Global.Variables.LanguageCode).js@(ViewBag.BundleVersion)"></script>
+        <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.0.3/bootstrap.min.js"></script>
+        <input type="hidden" ID="RenderingMode" value="@ViewBag.RenderingMode" />
+    </div>
+
+    <script src="@(ViewBag.StaticResources)/bundles/js/SharedPlugins.min.js@(ViewBag.BundleVersion)"></script>
+
+    <!-- page -->
+
+
+    <!-- COMMON SCRIPTS -->
+    @RenderSection("PluginsJS", required: false)
+
+    @RenderSection("PageJS", required: false)
+
+</body>
+</html>
