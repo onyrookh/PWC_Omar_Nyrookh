@@ -151,11 +151,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AlManhal.CSS.Common\PWC.Common.csproj">
+    <ProjectReference Include="..\PWC.Common\PWC.Common.csproj">
       <Project>{FEE821B9-28AA-4BFF-8FD7-BE71B055A872}</Project>
       <Name>PWC.Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\AlManhal.CSS.Infrastructure\PWC.Infrastructure.csproj">
+    <ProjectReference Include="..\PWC.Infrastructure\PWC.Infrastructure.csproj">
       <Project>{B83E7281-FB99-41F4-8D42-2BC70AAAD461}</Project>
       <Name>PWC.Infrastructure</Name>
     </ProjectReference>

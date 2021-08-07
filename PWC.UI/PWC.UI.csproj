@@ -45,15 +45,15 @@
 
   <ItemGroup>
 
-    <ProjectReference Include="..\AlManhal.CSS.Business\PWC.Business.csproj" />
+    <ProjectReference Include="..\PWC.Business\PWC.Business.csproj" />
 
-    <ProjectReference Include="..\AlManhal.CSS.Common\PWC.Common.csproj" />
+    <ProjectReference Include="..\PWC.Common\PWC.Common.csproj" />
 
-    <ProjectReference Include="..\AlManhal.CSS.Data\PWC.Data.csproj" />
+    <ProjectReference Include="..\PWC.Data\PWC.Data.csproj" />
 
-    <ProjectReference Include="..\AlManhal.CSS.Entities\PWC.Entities.csproj" />
+    <ProjectReference Include="..\PWC.Entities\PWC.Entities.csproj" />
 
-    <ProjectReference Include="..\AlManhal.CSS.Resources\PWC.Resources.csproj" />
+    <ProjectReference Include="..\PWC.Resources\PWC.Resources.csproj" />
   </ItemGroup>
 
   <ItemGroup>

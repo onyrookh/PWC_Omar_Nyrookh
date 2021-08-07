@@ -9,21 +9,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{7B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{8A9B1167-B0F5-4845-B742-324FCA5A6B7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PWC.Business", "AlManhal.CSS.Business\PWC.Business.csproj", "{84E0740B-51E4-4C0C-AB4F-696B500F9CDD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PWC.Business", "PWC.Business\PWC.Business.csproj", "{84E0740B-51E4-4C0C-AB4F-696B500F9CDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PWC.Data", "AlManhal.CSS.Data\PWC.Data.csproj", "{A8A1E390-6B60-47F8-AED9-D4E181E19841}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PWC.Data", "PWC.Data\PWC.Data.csproj", "{A8A1E390-6B60-47F8-AED9-D4E181E19841}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PWC.Repositories.EF", "AlManhal.CSS.Repositories.EF\PWC.Repositories.EF.csproj", "{4F82807B-4DC4-45EC-861E-21BFA8C20A37}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PWC.Repositories.EF", "PWC.Repositories.EF\PWC.Repositories.EF.csproj", "{4F82807B-4DC4-45EC-861E-21BFA8C20A37}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PWC.UI", "AlManhal.CSS.UI\PWC.UI.csproj", "{60985913-85D3-4BEB-80D6-35477159B37A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PWC.UI", "PWC.UI\PWC.UI.csproj", "{60985913-85D3-4BEB-80D6-35477159B37A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PWC.Resources", "AlManhal.CSS.Resources\PWC.Resources.csproj", "{E0D0BE21-0224-45FC-AD03-1DFB3E1F7BF1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PWC.Resources", "PWC.Resources\PWC.Resources.csproj", "{E0D0BE21-0224-45FC-AD03-1DFB3E1F7BF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PWC.Infrastructure", "AlManhal.CSS.Infrastructure\PWC.Infrastructure.csproj", "{B83E7281-FB99-41F4-8D42-2BC70AAAD461}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PWC.Infrastructure", "PWC.Infrastructure\PWC.Infrastructure.csproj", "{B83E7281-FB99-41F4-8D42-2BC70AAAD461}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PWC.Common", "AlManhal.CSS.Common\PWC.Common.csproj", "{FEE821B9-28AA-4BFF-8FD7-BE71B055A872}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PWC.Common", "PWC.Common\PWC.Common.csproj", "{FEE821B9-28AA-4BFF-8FD7-BE71B055A872}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PWC.Entities", "AlManhal.CSS.Entities\PWC.Entities.csproj", "{AF7F070D-183F-44FC-B592-86362D453954}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PWC.Entities", "PWC.Entities\PWC.Entities.csproj", "{AF7F070D-183F-44FC-B592-86362D453954}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

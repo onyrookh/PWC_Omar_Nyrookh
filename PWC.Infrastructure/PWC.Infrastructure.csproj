@@ -60,7 +60,7 @@
     <Compile Include="ValueObject.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AlManhal.CSS.Common\PWC.Common.csproj">
+    <ProjectReference Include="..\PWC.Common\PWC.Common.csproj">
       <Project>{fee821b9-28aa-4bff-8fd7-be71b055a872}</Project>
       <Name>PWC.Common</Name>
     </ProjectReference>
